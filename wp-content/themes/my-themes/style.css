@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #e2f725;
     width: 100%;
-    background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    background-color: #fff;
+    background-color: #4a3fdf;
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,46 +25,259 @@ header {
 header img {
     height: 200px;
 }
-
-header ul {
-    font-size: 34px;
+/* Main menu styling */
+.menu {
     list-style: none;
-    display: flex;
-    gap: 20px;
     margin: 0;
     padding: 0;
+    display: flex; /* horizontal menu */
+    background-color: #333;
 }
 
-header ul li a {
+.menu li {
+    position: relative; /* needed for dropdown positioning */
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
     text-decoration: none;
-    color: #000;
-    font-weight: 500;
-    transition: ease-in;
-    text-decoration: underline;
-    
+    transition: background 0.3s;
 }
-/* underline effect */
-.header a::after {
-    content: '';
+
+.menu a:hover {
+    background-color: #444;
+}
+
+/* Dropdown styling */
+.menu .sub-menu {
+    display: none; /* hide by default */
     position: absolute;
+    top: 100%; /* below the parent menu item */
     left: 0;
-    bottom: 0;
-    width: 0;
-    height: 3px;
-    background-color: #256ff7;
-    transition: width 0.3s ease;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    z-index: 1000;
 }
-main{
-    width: 100%;
-    background-color: #256ff7;
+
+.menu li:hover > .sub-menu {
+    display: block; /* show on hover */
+}
+
+.menu .sub-menu li a {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.menu .sub-menu li a:hover {
+    background-color: #555;
+}
+
+
+
+
+.contact{
+    display: flex;
+    gap: 40px;
+}
+.action-btn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1ff0e5;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px;
+}
+.action-btn i {
+  font-size: 20px;
+  color: #000;
+}
 
+.action-btn button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.action-btn:hover {
+  background-color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover i,
+.action-btn:hover button {
+  color: #fff;
+}
+/* file(footer) */
+.container_footer{
+    width: 100%;
+    background-color: #1ff0e5;
 }
 footer{
+    padding: 40px;
+  
+    margin-top: 200px;
+    gap: 20px;
     width: 100%;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
+.logo_p{
+    display: block;
+    /* background-color: rgb(170, 224, 21); */
+}
+.logo_footer{
+    width: 200px;
+}
+.logo_p p{
+    color: #000;
+    font-size: 30px;
+
+}
+.media_icon {
+    display: flex;
+}
+.media_icon a{
+    font-size: 44px;
+    color: #000;
+    margin: auto;
+}
+.media_icon a:hover{
+    transition: background-color 0.3s ease;
+    color: rgb(31, 60, 226);
+}
+.contianer_left_side{
+    /* background-color: #f78425; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.quick_link{
+    display: block;
+}
+h1:hover{
+    transition: background-color 0.3s ease;
+    color: rgb(31, 60, 226);
+    text-decoration: underline;
+}
+.quick_link a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-size: 20px;
+}
+.quick_link a :hover{
+    transition: background-color 0.3s ease;
+     color: rgb(31, 60, 226);
+    text-decoration: underline;
+}
+.address_contact p{ 
+    display: block;
+    font-size: 20px;
+}
+.get_in_touch{
+    display: block;
+}
+.get_in_touch input{
+    background-color: #eef3e1;
+    border: #000;
+    border-radius: 30px ;
+    padding: 10px 60px;
+}
+.get_in_touch button{
+    background-color: rgb(0, 0, 0);
+    border: #000;
+    border-radius: 30px ;
+    padding: 10px 40px;
+    transition: background-color 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.map{
+    margin-top: 30px;
+}
+.underline_footer{
+    color: #000;
+    width: 1200px;
+    margin: auto;
+}
+.privercy_footer{
+    text-align: center;
+}
+/* file(page-overview.php) */
+.container_overview_hero_section{
+    width: 100%;
+    margin-top: 188px;
+    position: relative;          /* IMPORTANT: parent for absolute elements */
+    text-align: center;
+    color: white;
+}
+
+/* Image */
+.container_hero_img img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;           /* prevent image stretching */
+    display: block;
+}
+
+/* Dark overlay on image */
+.color_on_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;                /* MUST have height */
+    background-color: rgba(0,0,0,0.5); /* transparent overlay */
+}
+.where_we_are_in{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left:10%;
+    top:50%;
+}
+.title_wre_are_in {
+    font-size: 120px;
+}
+.position_we_in{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.position_we_in p:hover {
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+.history_of_jubha{
+    background-color: orange;
+    width: 100%;
+}
+/* p{
+   color: #000000;
+   margin-bottom: 1rem;
+   letter-spacing: 0.1px;
+   line-height: 1.5;
+} */
+
+
+
