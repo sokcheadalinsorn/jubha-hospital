@@ -5,6 +5,56 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+       <img src="wp-content/themes/img/3.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="wp-content/themes/img/5.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+       <img src="wp-content/themes/img/4.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+       <img src="wp-content/themes/img/2.webp" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="wp-content/themes/img/1.jpeg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="wp-content/themes/img/6.avif" alt="">
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 <section class="appointment-section">
   <div class="tab-container">
     <div class="tab-item active">
@@ -18,6 +68,13 @@
   <div class="search-bar">
     <select class="input-select">
       <option>Select Location</option>
+      <option>AMC Rakkah</option>
+      <option>AGH Khobar</option>
+      <option>AGH Dammam</option>
+      <option>Ocology Center</option>
+      <option>AGH Aziziah Dammam</option>
+      <option>AMC Jubail</option>
+      <option>AGH Hofuf</option>
     </select>
     <select class="input-select">
       <option>Select Specialization</option>
@@ -133,93 +190,40 @@
         </div>
  </section>
    
-     <!-- Swiper -->
 
-  <div #swiperRef="" class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/images.jpeg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/home_7dmc_02.webp" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/1.jpeg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/2.webp" alt=""></div>
-       <div class="swiper-slide">
-        <img src="wp-content/themes/img/3.webp" alt="">
-       </div>
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/4.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/5.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="wp-content/themes/img/6.avif" alt="">
-      </div>
+
+ <section class="departments">
+  <div class="header">
+    <div>
+      <p class="subtitle">DEPARTMENTS</p>
+      <h1>7 Decades of Excellence</h1>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+    <a href="#" class="all-depts">ALL DEPARTMENTS <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 
-  
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <div class="cards">
+   <div class="card card-1">
+  <div class="content">
+    <div class="icon"><i class="fa-solid fa-syringe"></i></div>
+    <h3>Anesthesiology</h3>
+    <p>Almana Hospital's Anesthesiology Department</p>
+    <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+  </div>
+</div>
+    <div class="card card-2">
+      <div class="content">
+        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3>Cardiac Surgery</h3>
+        <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+    </div>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      centeredSlides: true,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        type: "fraction",
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var appendNumber = 4;
-    var prependNumber = 1;
-    document
-      .querySelector(".prepend-2-slides")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.prependSlide([
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-        ]);
-      });
-    document
-      .querySelector(".prepend-slide")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.prependSlide(
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
-        );
-      });
-    document
-      .querySelector(".append-slide")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.appendSlide(
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
-        );
-      });
-    document
-      .querySelector(".append-2-slides")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.appendSlide([
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-        ]);
-      });
-  </script>
+    <div class="card card-3">
+      <div class="content">
+        <div class="icon"><i class="fa-solid fa-hospital"></i></div>
+        <h3>Cath Lab</h3>
+        <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+      </div>
+    </div>
+  </div>
+</section>
