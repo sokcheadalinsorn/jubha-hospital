@@ -154,18 +154,21 @@
 
     <div class="stats-container">
         <div class="stat-card">
+          <div class="s-icon"><i class="fa-solid fa-hospital"></i></div>
             <h2>900+</h2>
             <p class="main-text">Successful Surgeries</p>
             <p class="sub-text">Highly Skilled</p>
         </div>
 
         <div class="stat-card">
+           <div class="s-icon"><i class="fa-solid fa-user-doctor"></i></div>
             <h2>45000+</h2>
             <p class="main-text">Happy Patients</p>
             <p class="sub-text">High Performance</p>
         </div>
 
         <div class="stat-card">
+          <div class="s-icon"><i class="fa-solid fa-bed"></i></div>
             <h2>99.7%</h2>
             <p class="main-text">Positive Feedback</p>
             <p class="sub-text">Patient Approved</p>
@@ -183,47 +186,107 @@
         
       </section>
     
-      <section class="specialties">
-        <div class="specialties-vim">
-          <p>Specialties</p>
-          <h1>Seven Decades of Excellence</h1>
-        </div>
- </section>
-   
-
-
- <section class="departments">
-  <div class="header">
-    <div>
-      <p class="subtitle">DEPARTMENTS</p>
-      <h1>7 Decades of Excellence</h1>
-    </div>
-    <a href="#" class="all-depts">ALL DEPARTMENTS <i class="fa-solid fa-arrow-right"></i></a>
+​​​    <div class="lika">
+  <div class="pok">
+    <h2>DEPARTMENTS</h2>
+    <p>7 Decades of Excellence</p>
   </div>
-
-  <div class="cards">
-   <div class="card card-1">
-  <div class="content">
-    <div class="icon"><i class="fa-solid fa-syringe"></i></div>
-    <h3>Anesthesiology</h3>
-    <p>Almana Hospital's Anesthesiology Department</p>
-    <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
-  </div>
-</div>
-    <div class="card card-2">
-      <div class="content">
+  <h2 class="title">Our Excellence</h2>
+  <div class="carousel">
+    <div class="card">
+      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
+      <div class="card-content">
         <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
         <h3>Cardiac Surgery</h3>
-        <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        <p>Almana Hospital's Cardiac Surgery Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
-    <div class="card card-3">
-      <div class="content">
-        <div class="icon"><i class="fa-solid fa-hospital"></i></div>
+    <div class="card">
+      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
+        <h3>Respiratory Therapy</h3>
+        <p>Almana Hospital's Respiratory Therapy Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="wp-content/themes/img/10.jpg" alt="Cath Lab">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-bed"></i></div>
         <h3>Cath Lab</h3>
-        <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        <p>Almana Hospital's Cath Lab Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3>Cardiac Surgery</h3>
+        <p>Almana Hospital's Cardiac Surgery Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
+        <h3>Respiratory Therapy</h3>
+        <p>Almana Hospital's Respiratory Therapy Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="wp-content/themes/img/6.avif" alt="Cath Lab">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-bed"></i></div>
+        <h3>Cath Lab</h3>
+        <p>Almana Hospital's Cath Lab Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
-</section>
+</div>
+   
+ <div class="container-kopo">
+    <div class="card">
+        <div class="card-header">
+            <img src="wp-content/themes/img/9.jpg" alt="Healthcare">
+            <span class="date-badge">26 SEP, 2023</span>
+        </div>
+        <div class="card-body">
+            <p class="category">SPECIALIZED CARE</p>
+            <h3 class="title">Home Healthcare Service</h3>
+            <a href="#" class="read-more">READ MORE &rarr;</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <img src="wp-content/themes/img/8.jpg" alt="Immune System">
+        </div>
+        <div class="card-body">
+            <p class="category">MEDICAL ENCYCLOPEDIA</p>
+            <h3 class="title">Signs of a Weak Immune System: How Your Body...</h3>
+            <a href="#" class="read-more">READ MORE &rarr;</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <img src="wp-content/themes/img/៧.jpg" alt="Immune System">
+        </div>
+        <div class="card-body">
+            <p class="category">MEDICAL ENCYCLOPEDIA</p>
+            <h3 class="title">Signs of a Weak Immune System: How Your Body...</h3>
+            <a href="#" class="read-more">READ MORE &rarr;</a>
+        </div>
+    </div>
+</div>
+
+ 
