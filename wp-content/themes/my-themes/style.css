@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e2f725;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.p_in_body{
+    font-size: 24px;
+    font-weight: bold;
+}
 /* file(header.php) */
 header {
     display: flex;
@@ -268,16 +270,264 @@ button:hover {
     color: #000;
     transition: background-color 0.3s ease;
 }
-.history_of_jubha{
-    background-color: orange;
-    width: 100%;
+.container_overview{
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    gap: 20px;
 }
-/* p{
-   color: #000000;
-   margin-bottom: 1rem;
-   letter-spacing: 0.1px;
-   line-height: 1.5;
-} */
+.tilttle_under_h2{
+    font-size: 24px;
+    color: #555;
+}
+.img_overview img{ 
+    width: 650px;
+    border-radius: 10px;
+}
+.btn_overview{
+  margin-left:200px;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
 
+.btn_overview:active {
+  scale: 0.92;
+}
 
+.btn_overview:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+/* file(page-culture.php) */
+.container_mission_vision{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    background-color: #1ff0e5;
+    display: flex;
+    gap: 20px;
+}
+.tittle_vision{
+    font-size: 24PX;
+    font-weight: 700px;
+}
+.title_p_vision{
+    font-size: 24px;
+}
+/* Overview Section */
+.overview {
+  padding: 40px 60px;
+}
 
+/* List Style */
+.overview-list {
+  list-style: none;
+}
+
+.overview-list li {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  position: relative;
+}
+
+/* Square bullet */
+.overview-list li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #057067;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.container_clinic_appreance {
+    width: 100%;
+    margin-top: 75px;
+}
+
+/* TITLE */
+.title_clinic_appreance {
+    width: 80%;
+    margin: auto;
+    color: #0a39d1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+/* MAIN IMAGE */
+.clinic_appreance {
+    display: block;
+    max-width: 100%;      /* RESPONSIVE */
+    height: auto;         /* KEEP RATIO */
+    max-height: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #000;
+    transition: transform 0.3s ease;
+}
+
+.clinic_appreance:hover {
+    transform: scale(1.05);
+}
+
+/* LINE */
+.line_in_page_about {
+    margin: 10px auto;
+    width: 200px;
+}
+
+/* IMAGE GALLERY */
+.img_file_about {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;          /* RESPONSIVE */
+    justify-content: center;
+    gap: 30px;
+}
+.row_img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_file_about img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .title_clinic_appreance {
+        font-size: 32px;
+    }
+
+    .img_file_about img {
+        width: 260px;
+        height: 180px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .title_clinic_appreance {
+        font-size: 26px;
+        width: 90%;
+    }
+
+    .img_file_about {
+        width: 95%;
+        gap: 20px;
+    }
+
+    .img_file_about img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+}
+/* file(page-service.php) */
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
