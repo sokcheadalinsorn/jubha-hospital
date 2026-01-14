@@ -22,8 +22,8 @@ body {
 
     .swiper-slide img {
       display: block;
-      width: 100%;
-      height: 100%;
+      width: 700px;
+      height: 700px;
       object-fit: cover;
     }
 
@@ -158,7 +158,7 @@ h2 {
     transform: scale();
 }
 .btn-read-more:hover{
-    background-color: #0026ff;
+    background-color: black;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -417,6 +417,13 @@ h2 {
   transform: scale(1.1); 
   filter: brightness(60%);
 }
+
+
+.events-section { 
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .container-kopo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -426,62 +433,41 @@ h2 {
 }
 
 
+
+
 .card {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px); 
-}
-
-
-.card-header {
-    position: relative;
-    height: 200px;
-}
-
-.card-header img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.date-badge {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: cyan;
-    color: white;
-    padding: 5px 10px;
-    font-size: 12px;
-    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
 }
 
 .card-body {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
 }
 
-.category {
-    color: cyan;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
 
-.title {
+.card-body .title {
     font-size: 18px;
     color: #333;
     margin-bottom: 20px;
     line-height: 1.4;
     height: 50px; 
+    overflow: hidden;
+    display: -webkit-box;
+   
 }
 
 
 .read-more {
+    margin-top: auto; 
     text-decoration: none;
     color: #008b8b;
     font-weight: bold;
@@ -490,6 +476,175 @@ h2 {
     align-items: center;
 }
 
-.read-more:hover {
-    text-decoration: underline;
+
+
+
+.video-card {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
 }
+
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+.top-dots {
+  display: flex;
+  gap: 8px;
+}
+.top-dots span {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.top-dots span.active {
+  background-color: #00a69c; 
+}
+
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+.video-card:hover .play-icon {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.content {
+  color: white;
+  text-align: right; 
+}
+.category {
+  font-size: 14px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+.bro {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.mony {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+  padding-bottom: 20px;
+}
+
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  position: relative;
+  flex: 0 0 calc((100% - 40px) / 3); 
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.card img {
+  width: 100%;  
+  height: 100%; 
+  object-fit: cover; 
+  filter: brightness(80%);
+  transition: transform 0.5s ease;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(234, 233, 233, 0.911)); 
+  transform: translateY(50px); 
+  opacity: 0;
+  transition: all 0.2s ease-in-out; 
+}
+.card:hover .card-content {
+  transform: translateY(-20px); 
+  opacity: 1;
+}
+.icon {
+  font-size: 45px;
+  margin-bottom: 10px;
+  background: none;      
+  border: none;          
+  padding: 0;            
+  
+
+  }
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.card:hover img {
+  transform: scale(1.1); 
+  filter: brightness(60%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

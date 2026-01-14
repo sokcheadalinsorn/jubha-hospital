@@ -253,7 +253,12 @@
     </div>
   </div>
 </div>
-   
+
+   <section class="events-section">
+  <div class="header-area">
+    <span class="subtitle">MEDIA UPDATE</span>
+    <h2 class="title">Latest Events</h2>
+  </div>
  <div class="container-kopo">
     <div class="card">
         <div class="card-header">
@@ -288,5 +293,123 @@
         </div>
     </div>
 </div>
+ </section>
+
+
+<section class="video-section">
+  <div class="video-card">
+    <img src="wp-content/themes/img/12.webp" alt="Al Mana Medical Center" class="bg-image">
+    
+    <div class="overlay">
+      <div class="top-dots">
+        <span></span>
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="play-icon">
+        <svg viewBox="0 0 24 24" width="60" height="60" fill="none" stroke="white" stroke-width="1.5">
+          <path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+      </div>
+
+      <div class="content">
+        <p class="category">VIDEOS</p>
+        <h3 class="title">Pre-Employment Screening Clinic</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="bro">
+  <div class="pok">
+    <h2>DEPARTMENTS</h2>
+    <p>7 Decades of Excellence</p>
+  </div>
+  <h2 class="mony">Our Excellence</h2>
+  <div class="carousel">
+    <div class="card">
+      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3>Cardiac Surgery</h3>
+        <p>Almana Hospital's Cardiac Surgery Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
+        <h3>Respiratory Therapy</h3>
+        <p>Almana Hospital's Respiratory Therapy Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="wp-content/themes/img/10.jpg" alt="Cath Lab">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-bed"></i></div>
+        <h3>Cath Lab</h3>
+        <p>Almana Hospital's Cath Lab Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3>Cardiac Surgery</h3>
+        <p>Almana Hospital's Cardiac Surgery Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
+      <div class="card-content">
+        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
+        <h3>Respiratory Therapy</h3>
+        <p>Almana Hospital's Respiratory Therapy Department</p>
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
