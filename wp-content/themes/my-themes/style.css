@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #FFFFFF;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +18,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    background-color: #4a3fdf;
+    background-color: #1E88E5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -123,11 +124,10 @@ header img {
 /* file(footer) */
 .container_footer{
     width: 100%;
-    background-color: #1ff0e5;
+    background-color: #F5F7FA;
 }
 footer{
     padding: 40px;
-  
     margin-top: 200px;
     gap: 20px;
     width: 100%;
@@ -316,9 +316,10 @@ button:hover {
     width: 80%;
     padding: 20px;
     margin: auto;
-    background-color: #1ff0e5;
+    background-color: #E3F2FD;
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 90px;
 }
 .tittle_vision{
     font-size: 24PX;
@@ -531,3 +532,229 @@ img {
 .demo:hover {
   opacity: 1;
 }
+/* file(page-find-doctors.php) */
+.container_searching{
+    width: 100%;
+    /* background-color: #007bff; */
+    margin-top: 40px;
+}
+.search_container{
+    width: 80%;
+    /* background-color: #057067; */
+    margin: auto;
+}
+.search_bar {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 40px; 
+    padding: 5px 25px;
+    width: 1200px; 
+    margin: 0 auto; 
+    border: 1px solid #162ae0; 
+}
+.search_icon {
+    font-size: 1.5em;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: #000000; 
+}
+.search_input {
+    flex-grow: 1; 
+    border: none;
+    outline: none; 
+    padding: 5px 0;
+    color: #333; 
+    /* background-color: transparent;  */
+}
+.search_input::placeholder {
+    color: #121111; 
+    font-weight: 300;
+}
+.specialization_each_doctors{
+    margin-top: 40px;
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #0a39d1;
+}
+
+.button1:hover {
+  background-color: #153be4;
+  color: white;
+}
+/* file(page-get-in-touch.php) */
+.container_get_in_touch{
+    width: 100%;
+    margin-top: 70px;
+}
+.container_contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    border: 1px solid #000000; /* white border */
+}
+
+.icon i{
+    color: #000;
+    font-size: 60px;
+}
+.icon{
+    color: #000000;
+    cursor: pointer;
+    transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.icon:hover{
+    background-color: #E3F2FD;   /*background:hovercard icon */
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(5, 112, 103, 0.4);
+}
+.container_get_in_touch_form{
+    width: 100%;
+    margin-top: 30px;
+}
+._get_in_touch{
+    margin: auto;
+    width: 50%;
+}
+.txt_p{
+    font-size: 24px;
+}
+form{
+   
+    /* margin: 30px auto; */
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+form label{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+form input{
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input focus effect */
+form input:focus{
+    border-color: #057067;
+    box-shadow: 0 0 0 3px rgba(5,112,103,0.2);
+}
+
+/* Submit button */
+.submit{
+    width: 100%;
+    padding: 14px;
+    background-color: #0a39d1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ea
+}
+/* Doctor grid and card - keep your existing styles */
+.doctors-grid {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.doctor-card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth hover */
+    background-color: #fff;
+}
+
+.doctor-card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* smooth zoom */
+}
+
+/* Hover effects */
+.doctor-card:hover {
+    transform: translateY(-10px); /* lifts the card */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2); /* stronger shadow */
+}
+
+.doctor-card:hover img {
+    transform: scale(1.05); /* zoom the image slightly */
+}
+
+/* Optional: highlight title on hover */
+.doctor-card h3 {
+    margin-top: 15px;
+    transition: color 0.3s ease;
+}
+
+.doctor-card:hover h3 {
+    color: #1e90ff; /* blue highlight */
+}
+
+/* Optional: description fade in slightly */
+.doctor-desc {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.doctor-card:hover .doctor-desc {
+    opacity: 1;
+}
+

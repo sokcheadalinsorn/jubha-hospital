@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'jubha_hospital' );
 
 /** Database username */
-define( 'DB_USER', 'lyna' );
+define( 'DB_USER', 'linlin' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'Sima1234' );
+define( 'DB_PASSWORD', '#Dalinkoko40' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

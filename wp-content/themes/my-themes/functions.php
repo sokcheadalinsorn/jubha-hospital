@@ -39,6 +39,25 @@ function mytheme_register_products() {
 }
 add_action('init', 'mytheme_register_products');
 
+function clinic_register_doctors_cpt() {
+    register_post_type('doctor', array(
+        'labels' => array(
+            'name' => 'Doctors',
+            'singular_name' => 'Doctor'
+        ),
+        'public' => true,
+        'menu_icon' => 'dashicons-id',
+        'supports' => array(
+            'title',        // Doctor name
+            'editor',       // Description
+            'thumbnail'     // Doctor photo
+        ),
+        'has_archive' => true,
+    ));
+}
+add_action('init', 'clinic_register_doctors_cpt');
+
+add_theme_support('post-thumbnails');
 
 // ==========================
 // PRODUCT CATEGORY TAXONOMY
