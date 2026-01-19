@@ -66,7 +66,7 @@
 
             <label for="fname">Messages</label><br>
             <input type="text" placeholder="Describtion"><br>
-            <button class="submit">Submit</button>
+           <button id="#" class="btn_submit">Submit</button>
 
         </form>
 

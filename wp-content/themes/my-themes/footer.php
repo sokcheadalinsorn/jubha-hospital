@@ -43,7 +43,7 @@
                 <h1 class="tilttle_footer">Get In Touch</h1> <br> 
                 <form action="/action_page.php">
                     <input type="text" placeholder="Your Email...">
-                    <button type="submit">Submit</button>
+                    <button id="#" class="btn_footer_submit">Submit</button>
                 </form>
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15636.800440411322!2d104.8805006976919!3d11.537498285584194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310950549f27fc1b%3A0x65c2d5b055de0d9d!2sPSE%20-%20Pour%20un%20Sourire%20d&#39;Enfant!5e0!3m2!1sen!2skh!4v1765782940549!5m2!1sen!2skh" width="700" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="-map-">

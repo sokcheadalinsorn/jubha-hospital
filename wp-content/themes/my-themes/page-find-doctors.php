@@ -28,7 +28,7 @@
 
             <div class="specialization_each_doctors">
                 <button class="button button1">ALL DOCTORS</button>
-                <button class="button button1">General</button>
+                <button class="button button1">Laboraty Testing</button>
                 <button class="button button1">Heart</button>
                 <button class="button button1">Bone & Muscle</button>
                 <button class="button button1">Mental Health</button>
@@ -41,7 +41,6 @@
 </div>
 
 
-<div class="doctors-container">
 
     <div class="doctors-grid">
         <?php
