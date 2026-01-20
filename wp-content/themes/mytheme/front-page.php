@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
       <!-- Swiper -->
   <div class="swiper mySwiper">
@@ -22,10 +23,10 @@
        <img src="wp-content/themes/img/2.webp" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="wp-content/themes/img/1.jpeg" alt="">
+        <img src="wp-content/themes/img/01.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="wp-content/themes/img/6.avif" alt="">
+    <img src="wp-content/themes/img/6.avif" alt="">
       </div>
     </div>
     <div class="swiper-button-next"></div>
@@ -79,7 +80,7 @@
     <select class="input-select">
       <option>Select Specialization</option>
     </select>
-    <button class="find-btn">FIND DOCTOR &rarr;</button>
+       <button class="find-btn">FIND DOCTOR &rarr;</button>
   </div>
 </section>
  
@@ -116,8 +117,9 @@
                         </div>
                     </div>
                 </div>
-
-                <button class="btn-read-more">Read More +</button>
+                
+                    <button class="davi">Read More +</button>
+                 
             </div>
         </div>
     </section>
@@ -202,46 +204,16 @@
         <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
-
     <div class="card">
-      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
+      <img src="wp-content/themes/img/20.jpg" alt="Cardiac Surgery">
       <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
-        <h3>Respiratory Therapy</h3>
-        <p>Almana Hospital's Respiratory Therapy Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="wp-content/themes/img/10.jpg" alt="Cath Lab">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-bed"></i></div>
-        <h3>Cath Lab</h3>
-        <p>Almana Hospital's Cath Lab Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
-    <div class="card">
-      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <div class="icon"><i class="fa-solid fa-syringe"></i></i></div>
         <h3>Cardiac Surgery</h3>
         <p>Almana Hospital's Cardiac Surgery Department</p>
         <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
-
-    <div class="card">
-      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
-        <h3>Respiratory Therapy</h3>
-        <p>Almana Hospital's Respiratory Therapy Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
-
+    
     <div class="card">
       <img src="wp-content/themes/img/6.avif" alt="Cath Lab">
       <div class="card-content">
@@ -259,42 +231,44 @@
     <span class="subtitle">MEDIA UPDATE</span>
     <h2 class="title">Latest Events</h2>
   </div>
- <div class="container-kopo">
+
+  <div class="container-kopo">
+
     <div class="card">
-        <div class="card-header">
-            <img src="wp-content/themes/img/9.jpg" alt="Healthcare">
-            <span class="date-badge">26 SEP, 2023</span>
-        </div>
-        <div class="card-body">
-            <p class="category">SPECIALIZED CARE</p>
-            <h3 class="title">Home Healthcare Service</h3>
-            <a href="#" class="read-more">READ MORE &rarr;</a>
-        </div>
+      <div class="card-header">
+        <img src="wp-content/themes/img/23.webp" alt="">
+      </div>
+      <div class="card-body">
+        <p class="category">MEDICAL ENCYCLOPEDIA</p>
+        <h3 class="card-title">Leukemia Symptoms, causes and treatment</h3>
+        <a href="#" class="read-more"> READ MORE   <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
     </div>
 
     <div class="card">
-        <div class="card-header">
-            <img src="wp-content/themes/img/8.jpg" alt="Immune System">
-        </div>
-        <div class="card-body">
-            <p class="category">MEDICAL ENCYCLOPEDIA</p>
-            <h3 class="title">Signs of a Weak Immune System: How Your Body...</h3>
-            <a href="#" class="read-more">READ MORE &rarr;</a>
-        </div>
+      <div class="card-header">
+        <img src="wp-content/themes/img/22.jpeg" alt="">
+      </div>
+      <div class="card-body">
+        <p class="category">MEDICAL ENCYCLOPEDIA</p>
+        <h3 class="card-title">Signs of weakened immune system</h3>
+        <a href="#" class="read-more"> READ MORE  <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
     </div>
     <div class="card">
-        <div class="card-header">
-            <img src="wp-content/themes/img/៧.jpg" alt="Immune System">
-        </div>
-        <div class="card-body">
-            <p class="category">MEDICAL ENCYCLOPEDIA</p>
-            <h3 class="title">Signs of a Weak Immune System: How Your Body...</h3>
-            <a href="#" class="read-more">READ MORE &rarr;</a>
-        </div>
+      <div class="card-header">
+        <img src="wp-content/themes/img/២៤.jpg" alt="">
+        <span class="date-badge">26 SEP, 2023</span>
+      </div>
+      <div class="card-body">
+        <p class="category">SPECIALIZED CARE</p>
+        <h3 class="card-title">Home Medical Care</h3>
+        <a href="#" class="read-more">READ MORE   <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
     </div>
-</div>
- </section>
 
+  </div>
+</section>
 
 <section class="video-section">
   <div class="video-card">
@@ -322,94 +296,177 @@
   </div>
 </section>
 
-
-
-<div class="bro">
-  <div class="pok">
-    <h2>DEPARTMENTS</h2>
-    <p>7 Decades of Excellence</p>
+<section class="eka-ra">
+  <nav>
+  <div class="title-area">
+        <span class="subtitle">BRANCHES</span>
+        <h2 class="main-title">Hospital Locations</h2>
+      </div>
+      <div class="nav-arrows">
+        <button class="arrow prev">←</button>
+        <button class="arrow next">→</button>
+        
+      </div>
+    </div>
+    </nav>
+  <div class="container-toki">
+    <div class="section-header">
+    <div class="locations-grid">
+     <div class="location-card">
+  <img src="wp-content/themes/img/25.jpeg" alt="AMC Rakkah">
+  <div class="card-overlay">
+    
+    <h3>Al Mana General Hospital - Dammam</h3>
   </div>
-  <h2 class="mony">Our Excellence</h2>
-  <div class="carousel">
-    <div class="card">
-      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-        <h3>Cardiac Surgery</h3>
-        <p>Almana Hospital's Cardiac Surgery Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
+</div>
+      <div class="location-card">
+        <img src="wp-content/themes/img/26.jpeg" alt="AGH Khobar">
+        <div class="card-overlay">
+          <h3>Al Mana General Hospital - Al-Khobar</h3>
+        </div>
+      </div>
+      <div class="location-card">
+        <img src="wp-content/themes/img/27.jpg" alt="AGH Dammam">
+        <div class="card-overlay">
+          <h3>Al Mana Medical Complex - Raka</h3>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="card">
-      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
-        <h3>Respiratory Therapy</h3>
-        <p>Almana Hospital's Respiratory Therapy Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+
+
+
+   
+
+    <div class="container-yulo">
+    <div class="rating-card">
+        <h3>How Was Your Experience?</h3>
+        <p>Your feedback helps us to improve, tap a star to rate your experience</p>
+        <div class="icons stars">
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star active"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="rayi"><span class="status-label label-okay">Okay</span></div>
+        <button class="spto">Rate now</button>
+        <button class="voip">State your reason</button>
     </div>
 
-    <div class="card">
-      <img src="wp-content/themes/img/10.jpg" alt="Cath Lab">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-bed"></i></div>
-        <h3>Cath Lab</h3>
-        <p>Almana Hospital's Cath Lab Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
-    <div class="card">
-      <img src="wp-content/themes/img/4.jpg" alt="Cardiac Surgery">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
-        <h3>Cardiac Surgery</h3>
-        <p>Almana Hospital's Cardiac Surgery Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+    <div class="rating-card">
+        <h3>How Was Your Experience?</h3>
+        <p>Your feedback helps us to improve, tap a star to rate your experience</p>
+        <div class="icons emojis">
+            <span class="active-emoji"><i class="fa-solid fa-face-angry"></i></span>
+            <span><i class="fa-solid fa-face-meh"></i></span>
+            <span><i class="fa-solid fa-face-smile"></i></span>
+            <span><i class="fa-solid fa-face-laugh"></i></span>
+            <span><i class="fa-solid fa-face-grin-hearts"></i></span>
+        </div>
+        <div class="rayi"><span class="status-label label-bad">Bad</span></div>
+        <button class="spto">Rate now</button>
+        <button class="voip">State your reason</button>
     </div>
 
-    <div class="card">
-      <img src="wp-content/themes/img/5.jpg" alt="Respiratory Therapy">
-      <div class="card-content">
-        <div class="icon"><i class="fa-solid fa-syringe"></i></div>
-        <h3>Respiratory Therapy</h3>
-        <p>Almana Hospital's Respiratory Therapy Department</p>
-        <a href="#" class="arrow"><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+    <div class="rating-card">
+        <h3>How Was Your Experience?</h3>
+        <p>Your feedback helps us to improve, tap a star to rate your experience</p>
+        <div class="icons thumbs">
+            <div class="thumb-active"><i class="fas fa-thumbs-up"></i></div>
+            <i class="fas fa-thumbs-down"></i>
+        </div>
+        <div class="rayi"><span class="status-label label-good">Good</span></div>
+        <button class="spto">Rate now</button>
+        <button class="voip">State your reason</button>
     </div>
 
+    <div class="rating-card">
+        <h3>How Was Your Experience?</h3>
+        <p>Your feedback helps us to improve, tap a star to rate your experience</p>
+        <div class="slider-container">
+            <input type="range" min="1" max="5" value="2" class="slider">
+            <div class="slider-labels">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+            </div>
+        </div>
+        <div class="rayi"><span class="status-label label-unhappy">Unhappy</span></div>
+        <button class="spto">Rate now</button>
+        <button class="voip">State your reason</button>
+    </div>
+</div>
 
+​​​      <section class="niko">
+  <h2 class="title">Recent Feedbacks</h2>
 
+  <div class="feedback-card">
+    <img src="https://i.pravatar.cc/80?img=12" alt="user">
+    <div class="content">
+      <h4>Robert Karmazov</h4>
+      <div class="stars">
+        <samp>2.4.2026</samp>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
 
+      <p>Author magnus proin vitae laoreet ultrices diam. Sed duis mattis cras lacus donec.</p>
+    </div>
+  </div>
 
+  <div class="feedback-card">
+    <img src="https://i.pravatar.cc/80?img=32" alt="user">
+    <div class="content">
+      <h4>Robert Karmazov</h4>
+      <div class="stars">
+          <samp>2.4.2026</samp>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
 
+      <p>Author magnus proin vitae laoreet ultrices diam. Sed duis mattis cras lacus donec.</p>
+    </div>
+  </div>
+  <div class="feedback-card">
+    <img src="https://i.pravatar.cc/80?img=12" alt="user">
+    <div class="content">
+      <h4>Robert Karmazov</h4>
+      <div class="stars">
+        <samp>2.4.2026</samp>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
 
+      <p>Author magnus proin vitae laoreet ultrices diam. Sed duis mattis cras lacus donec.</p>
+    </div>
+  </div>
 
+  <div class="feedback-card">
+    <img src="https://i.pravatar.cc/80?img=32" alt="user">
+    <div class="content">
+      <h4>Robert Karmazov</h4>
+      <div class="stars">
+        <samp>2.4.2026</samp>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+</div>
 
+  <p>Author magnus proin vitae laoreet ultrices diam. Sed duis mattis cras lacus donec.</p>
+    </div>
+  </div>
 
+</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

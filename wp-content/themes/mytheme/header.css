@@ -1,0 +1,109 @@
+/* file(header.php) */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #1E88E5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header img {
+    height: 200px;
+}
+/* Main menu styling */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* horizontal menu */
+    background-color: #333;
+}
+
+.menu li {
+    position: relative; /* needed for dropdown positioning */
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+/* Dropdown styling */
+.menu .sub-menu {
+    display: none; /* hide by default */
+    position: absolute;
+    top: 100%; /* below the parent menu item */
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    z-index: 1000;
+}
+
+.menu li:hover > .sub-menu {
+    display: block; /* show on hover */
+}
+
+.menu .sub-menu li a {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.menu .sub-menu li a:hover {
+    background-color: #555;
+}
+
+
+
+
+.contact{
+    display: flex;
+    gap: 40px;
+}
+.action-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ff0e5;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px;
+}
+.action-btn i {
+  font-size: 20px;
+  color: #000;
+}
+
+.action-btn button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.action-btn:hover {
+  background-color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover i,
+.action-btn:hover button {
+  color: #fff;
+}
