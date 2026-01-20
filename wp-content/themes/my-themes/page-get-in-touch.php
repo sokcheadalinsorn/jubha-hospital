@@ -23,8 +23,8 @@
     </div>
 </div>
 
-<div class="container_get_in_touch">
-    <div class="container_contact">
+<!-- <div class="container_get_in_touch">
+    <div class="contact_icon">
         <div class="icon">
             <i class="fa-solid fa-phone"></i> <br><br><br>
             <p>+855 97 678 543</p>
@@ -43,7 +43,7 @@
             <p>jubhaclinic@gmail.com</p>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container_get_in_touch_form">
     <div class="_get_in_touch">

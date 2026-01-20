@@ -68,13 +68,51 @@
   </div>
 </div>
 
+<section class="dept-category-section">
+    <div class="dept-header">
+        <h2>Department Category</h2>
+        <p>Browse by department for tailored services and expert solutions</p>
+    </div>
 
-<div class="slider_show_pic">
-  <div class="silder_pic">
-    <img src="" alt="">
-  </div>
-</div>
+    <div class="dept-grid">
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <i class="fas fa-kidneys"></i> <img src="https://img.icons8.com/ios/100/2196F3/kidneys.png" alt="Kidneys">
+            </div>
+        </div>
 
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/hearts.png" alt="Heart">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/lungs.png" alt="Lungs">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/tooth.png" alt="Tooth">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/brain.png" alt="Brain">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/joint.png" alt="Joints">
+            </div>
+        </div>
+
+    </div>
+</section>
 
 
 
